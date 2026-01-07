@@ -11,7 +11,7 @@ def analyze_url(url):
         score += 2
         reasons.append("URL shortener used")
 
-    if url.startswith("http://"):
+    if url.startswith("ht tp://"):
         score += 1
         reasons.append("HTTPS not used")
 
